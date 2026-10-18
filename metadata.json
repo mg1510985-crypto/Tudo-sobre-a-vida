@@ -1,0 +1,6 @@
+{
+  "name": "BELEZA CAPILAR ANGOLA",
+  "description": "Loja e plataforma digital de guias, e-books e conteúdos educativos sobre cuidados com cabelo natural, crespo e tranças em Angola por Manuel Marcolino Miranda.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

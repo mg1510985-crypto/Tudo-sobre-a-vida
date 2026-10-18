@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B0764" />
+      <stop offset="50%" stop-color="#4A154B" />
+      <stop offset="100%" stop-color="#2E0854" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDE68A" />
+      <stop offset="50%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="100" fill="url(#bgGrad)" />
+  <circle cx="256" cy="256" r="210" fill="none" stroke="url(#goldGrad)" stroke-width="4" stroke-opacity="0.4" />
+  
+  <!-- Crown & Hair Flora Symbol -->
+  <g transform="translate(136, 120)">
+    <path d="M120 20 C100 0, 70 0, 50 30 C30 60, 40 100, 70 120 C40 125, 20 150, 20 180 C20 220, 60 250, 120 250 C180 250, 220 220, 220 180 C220 150, 200 125, 170 120 C200 100, 210 60, 190 30 C170 0, 140 0, 120 20 Z" fill="none" stroke="url(#goldGrad)" stroke-width="6" />
+    <!-- Comb teeth styling inside -->
+    <path d="M75 160 L75 220 M100 155 L100 225 M120 155 L120 228 M140 155 L140 225 M165 160 L165 220" stroke="url(#goldGrad)" stroke-width="5" stroke-linecap="round" />
+    <!-- Crown Points -->
+    <polygon points="120,45 145,95 185,75 165,120 75,120 55,75 95,95" fill="url(#goldGrad)" />
+  </g>
+  
+  <!-- Brand text -->
+  <text x="256" y="420" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="34" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="4">BELEZA CAPILAR</text>
+  <text x="256" y="455" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="20" font-weight="700" fill="url(#goldGrad)" text-anchor="middle" letter-spacing="8">ANGOLA</text>
+</svg>
